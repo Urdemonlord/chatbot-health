@@ -1,0 +1,22 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot Kesehatan</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chatbox" class="chatbox" aria-live="polite" aria-atomic="true" role="log"></div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Ketik pesan..." aria-label="Ketik pesan" autocomplete="off">
+            <button id="sendBtn" aria-label="Kirim pesan">Kirim</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
